@@ -6,7 +6,7 @@ Heavily inspired by the [Alpine Experiments](https://github.com/ryangjchandler/a
 
 ## Getting Started
 
-Simplye click the **Use this template** button of this repo, and follow the [Github Guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+Simply click the **Use this template** button of this repo, and follow the [Github Guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 
 ### Installing
@@ -22,7 +22,7 @@ npm run watch
 
 ## Deployment
 
-* Build you production ready assests, by running
+* Build your production ready assests, by running
 ```bash
 npm run build
 ```
