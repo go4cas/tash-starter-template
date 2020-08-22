@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Organising your Alpine Components</title>
+  <link rel="stylesheet" href="./static/css/tailwind.output.css" />
+  <style>
+    [x-cloak] {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div x-data="{ open: false }">
+    <button @click="open = ! open">Toggle</button>
+    <span x-show="open" x-cloak>Some cool text</span>
+  </div>
+  
+  <div x-data="dropdown()" x-init="init">
+    <button @click="open = ! open">Toggle</button>
+    <span x-show="open" x-cloak>Some cool text</span>
+  </div>
+  
+  <div x-data>
+    <span x-text="$store.counter.count"></span>
+    <button @click="$store.counter.count++">Inc</button>
+  </div>
+  
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
