@@ -3,8 +3,6 @@ import './store.js'
 
 ;(() => {
   registerComponents({
-    dropdown: './components/dropdown.js',
-    counter: './components/counter.js',
   })
   
   import('https://cdn.jsdelivr.net/gh/kevinbatdorf/alpine-magic-helpers@0.2.x/dist/index.js')

@@ -4,8 +4,6 @@ Spruce.config({
   globalStoreVariable: true
 })
 
-Spruce.store('counter', {
-  count: 0
-})
+Spruce.store()
 
 export default Spruce

@@ -27,6 +27,10 @@ export default {
         {
           src: 'src/static/img/*',
           dest: 'dist/static/img/'
+        },
+        {
+          src: 'src/static/fonts/*',
+          dest: 'dist/static/fonts/'
         }
       ]
     }),
