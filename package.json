@@ -1,7 +1,15 @@
 {
-  "name": "tash-starter-template",
+  "name": "{{package-slug}}",
   "version": "0.1.0",
-  "description": "Template repo for the TASH (Tailwind.css, Alpine.js, Spruce.js and alipne magic Helpers) stack",
+  "description": "{{package-description}}",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{package-slug}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/{{package-slug}}/issues"
+  },
+  "homepage": "https://github.com/{{package-slug}}#readme",
   "scripts": {
     "build": "env NODE_ENV=production postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css && rollup --config rollup.prod.config.js",
     "watch": "postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css && rollup --config rollup.dev.config.js -w"
@@ -12,8 +20,8 @@
     "spruce",
     "starter"
   ],
-  "author": "Cas du Plessis <go4cas@gmail.com>",
-  "license": "ISC",
+  "author": "{{author-name}} <{{author-name}}>",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
