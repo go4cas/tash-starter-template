@@ -4,6 +4,21 @@ Template repo for creating a TASH (**T**ailwind.css, **A**lpine.js, **S**puce,.j
 
 Heavily inspired by the [Alpine Experiments](https://github.com/ryangjchandler/alpine-experiments) from [Ryan Chandler](https://github.com/ryangjchandler)!
 
+## What is included?
+* [Tailwind.css](https://tailwindcss.com) for compoent styling
+* [Alpine.js](https://github.com/alpinejs/alpine) for reactivity and component logic
+* [Spruce](https://github.com/ryangjchandler/spruce) for application state management
+* [Alpine Magic Helpers](https://github.com/KevinBatdorf/alpine-magic-helpers) for additinal sugar
+
+You get the following out of the box:
+* Apline.js, Spruce and Alpine Magic Helper libs loaded from CDN
+* Customizable Tailwind.css
+* Central application store, using Spruce
+* Component logic split in separate files
+* Dev server, with live reload
+* Production ready build, including Tailwind.css custom build, js and css logic minification and static assets
+
+
 ## Getting Started
 
 Simply click the **Use this template** button of this repo, and follow the [Github Guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
