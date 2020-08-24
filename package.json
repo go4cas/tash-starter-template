@@ -11,8 +11,8 @@
   },
   "homepage": "https://github.com/{{package-slug}}#readme",
   "scripts": {
-    "build": "env NODE_ENV=production postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css && rollup --config rollup.prod.config.js",
-    "watch": "postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css && rollup --config rollup.dev.config.js -w"
+    "build": "env NODE_ENV=production rollup --config rollup.prod.config.js && postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css",
+    "watch": "rollup --config rollup.dev.config.js -w && postcss src/static/css/tailwind.css -o dist/static/css/tailwind.css"
   },
   "keywords": [
     "tailwind",
