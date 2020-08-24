@@ -1,21 +1,19 @@
 import { terser } from 'rollup-plugin-terser'
-import multiInput from 'rollup-plugin-multi-input'
 import copy from 'rollup-plugin-copy-watch'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
 
 export default {
   input: [
-    'src/**/*.js'
+    'src/index.js'
   ],
   output: {
     dir: './dist',
     format: 'es'
   },
-  // preserveModules: true,
+  preserveModules: true,
   plugins: [
     terser(),
-    multiInput(),
     copy({
       watch: 'src',
       targets: [
