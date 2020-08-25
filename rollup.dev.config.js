@@ -5,7 +5,7 @@ import livereload from 'rollup-plugin-livereload'
 
 export default {
   input: [
-    'src/index.js'
+    './src/app.js'
   ],
   output: {
     dir: './dist',

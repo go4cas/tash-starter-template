@@ -4,7 +4,7 @@ import del from 'rollup-plugin-delete'
 
 export default {
   input: [
-    'src/index.js'
+    './src/app.js'
   ],
   output: {
     dir: './dist',
